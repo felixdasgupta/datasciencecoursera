@@ -1,0 +1,52 @@
+library(swirl)
+swirl()
+submit()
+boring_function('My first function!')
+boring_function
+submit()
+my_mean(c(4,5,10))
+submit()
+submit()
+submit()
+submit()
+remainder(5)
+remainder(11,5)
+remainder(divisor = 11, num = 5)
+remainder(4, div=2)
+args(remainder)
+submit()
+submit()
+sd
+evaluate(sd, c(1.4,3.6,7.9,8.8))
+evaluate(function(x){x+1},6)
+evaluate(x, c(8,4,0))
+function any(x){x}
+function any(x) { }
+evaluate(any, c(8,4,0))
+info()
+exit
+bye()
+swirl()
+getwd()
+ls()
+x <- 9
+ls()
+dir()
+>list.files
+?list.files
+args(list.files)
+old.dir <- list.files
+old.dir <- getwd()
+dir.create()
+dir.create("testdir")
+setwd("testdir")
+file.create(mytest.R)
+file.create("mytest.R")
+ls
+list.files()
+file.exists("mytest.R")
+exit
+bye()
+swirl()
+bye()
+swirl()
