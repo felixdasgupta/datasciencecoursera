@@ -27,8 +27,7 @@ complete <- function(directory, id = 1:332) {
   }
   
   # This is Extracting All the CSV Files Then Building The Proper Path to Each CSV File
-  every_file <- as.character( list.files(directory) )
-  pathfiles <- paste(directory, every_file, sep="")
+  pathfiles <- paste(directory, as.character( list.files(directory) ), sep="")
   
   # This builds the array of Complete Data
   x <- 1

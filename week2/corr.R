@@ -20,8 +20,7 @@ corr <- function(directory, threshold = 0) {
   }
   
   # This is Extracting All the CSV Files Then Building The Proper Path to Each CSV File
-  every_file <- as.character( list.files(directory) )
-  pathfiles <- paste(directory, every_file, sep="")
+  pathfiles <- paste(directory, as.character( list.files(directory) ), sep="")
   
   # This grabs Complete Values, thens IDs where Nobs > Threshold
   complete_values <- complete("specdata", 1:332)
